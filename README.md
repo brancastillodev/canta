@@ -1,8 +1,8 @@
 # Canta 🎵
 
-Script para reconocer canciones que suenen en tu linux y mostrar la letra en la terminal.
+Programa para mostrar la letra de lo que esta sonando en tu linux.
 
-Script to recognize songs playing on your linux system and display the lyrics.
+Program to show the lyrics of what's playing on your linux.
 
 
 ## Instalación
@@ -19,30 +19,21 @@ cd canta
 ### Ubuntu / Debian / Linux Mint / Pop!_OS
 
 ```
-# Instalar songrec
 sudo apt install songrec
-
-# Instalar glyrics
 sudo npm install -g glyrics
 ```
 
 ### Fedora / Nobara / Rocky Linux
 
 ```
-# Instalar songrec
 sudo dnf install songrec
-
-# Instalar glyrics
 sudo npm install -g glyrics
 ```
 
 ### Arch Linux / Manjaro / EndeavourOS
 
 ```
-# Instalar songrec (disponible en los repos oficiales)
 sudo pacman -S songrec
-
-# Instalar glyrics
 sudo npm install -g glyrics
 ```
 
@@ -52,40 +43,16 @@ sudo npm install -g glyrics
 ./canta.sh
 ```
 
-## Dispositivo de audio
-
-El script auto-detecta el monitor de audio activo.
-
 ## Solución de problemas
 
-### "No se detectó ningún monitor de audio"
+### No se reconoce la canción
 
-1. Verificá que PulseAudio o PipeWire esté corriendo:
+1. Probá con otra canción
+2. Verificá que el audio del sistema esté siendo capturado correctamente
 
-```
-pactl info
-```
+### La letra no es la correcta
 
-2. Verificá que haya monitores de audio disponibles:
-
-```
-pactl list sources short | grep monitor
-```
-
-### SongRec no reconoce canciones
-
-1. Asegurate de tener conexión a internet
-2. Probá con otra canción
-3. Verificá que el audio del sistema esté siendo capturado correctamente
-
-### glyrics no muestra letras
-
-1. Verificá la conexión a internet
-2. Probá con el comando directo:
-
-```
-glyrics "artista nombre de canción"
-```
+1. Proba con otra canción
 
 ## Licencia
 
