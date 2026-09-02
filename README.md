@@ -1,6 +1,9 @@
 # Canta 🎵
 
-Script para reconocer canciones que suenan en tu sistema de audio y mostrar la letra automáticamente.
+Script para reconocer canciones que suenen en tu linux y mostrar la letra en la terminal.
+
+Script to recognize songs playing on your linux system and display the lyrics.
+
 
 ## Instalación
 
@@ -11,10 +14,7 @@ git clone https://github.com/brancastillodev/canta.git
 cd canta
 ```
 
-### Dependencias
-
-- `songrec` - Cliente de Shazam para Linux
-- `glyrics` - Buscador de letras de canciones
+### Instalar dependencias
 
 ### Ubuntu / Debian / Linux Mint / Pop!_OS
 
