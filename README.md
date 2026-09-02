@@ -5,6 +5,10 @@ Programa para mostrar la letra de lo que esta sonando en tu linux.
 Program to show the lyrics of what's playing on your linux.
 
 
+### Demo
+
+https://github.com/brancastillodev/canta/releases/download/shell/canta-demo.mp4
+
 ## Instalación
 
 ### Clonar el repositorio
