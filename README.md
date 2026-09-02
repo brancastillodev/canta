@@ -1,13 +1,13 @@
+
+
+https://github.com/user-attachments/assets/8321b9d2-f6e4-43bd-b3d7-e29436e5121a
+
 # Canta 🎵
 
 Programa para mostrar la letra de lo que esta sonando en tu linux.
 
 Program to show the lyrics of what's playing on your linux.
 
-
-### Demo
-
-https://github.com/brancastillodev/canta/assets/canta-demo.mp4
 
 ## Instalación
 
