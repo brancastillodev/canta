@@ -1,6 +1,4 @@
-
-
-https://github.com/user-attachments/assets/8321b9d2-f6e4-43bd-b3d7-e29436e5121a
+https://github.com/user-attachments/assets/8bb8ffd2-5463-4d41-9f77-7d1099618f32
 
 # Canta 🎵
 
